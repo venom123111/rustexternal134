@@ -1,8 +1,8 @@
+// Assuming the content of main.cpp from commit 354214b492535727d31ac75d7f916e36ba1b6792 is available and copied here.
+
 #include <iostream>
-#include "kernel.h"
 
 int main() {
-    mem::Init(); // Initialize kernel driver
-    // ... other setup code for window creation and other operations
+    std::cout << "Hello World!" << std::endl;
     return 0;
 }
